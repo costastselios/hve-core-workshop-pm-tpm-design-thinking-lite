@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-# Participant guide (v6.3)
+# Workshop guide (v6.3)
 
 From a vague product idea to a planned backlog, with AI agents helping and you deciding.
 
@@ -558,4 +558,4 @@ Save the proposal as docs/project-planning/portfolio-tracker-epic-feature-propos
 [↑ Back to top](#top)
 
 
-*Participant guide v6.3*
+*Workshop guide v6.3*
