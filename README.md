@@ -25,6 +25,13 @@ From a vague product idea to a planned backlog, with AI agents helping and you d
 
 ## Start here
 
+### Before the workshop: prerequisites
+
+Set these up before the day, using the workshop repository's [Prerequisites](https://github.com/costastselios/hve-core-pm-tpm-design-thinking-workshop/blob/main/docs/PREREQUISITES.md) page:
+- **VS Code with GitHub Copilot Chat.**
+- **The HVE Core plugin**, which provides the agents used today. Follow [Install HVE Core](https://github.com/costastselios/hve-core-pm-tpm-design-thinking-workshop/blob/main/docs/PREREQUISITES.md#install-hve-core) there.
+- **The readiness check:** **DT Coach**, **BRD Builder** and **PRD Builder** each appear once in the agent picker. See [Readiness](https://github.com/costastselios/hve-core-pm-tpm-design-thinking-workshop/blob/main/docs/PREREQUISITES.md#readiness).
+
 ### First: get the workshop repository
 
 There are two GitHub repositories today:
