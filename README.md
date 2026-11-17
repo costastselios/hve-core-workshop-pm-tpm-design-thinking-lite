@@ -6,7 +6,19 @@ From a vague product idea to a planned backlog, with AI agents helping and you d
 
 > All data in this workshop is made up. Never type real financial data, yours or anyone's.
 
-**Contents:** [Start here](#start-here) · [Step 0 · Look at three broker apps](#step-0) · [Step 1 · First conversation with DT Coach](#step-1) · [Load Pack A](#load-pack-a) · [Step 4 · Brainstorm](#step-4) · [Step 6 · Test a prototype by hand](#step-6) · [Load Pack D and guided read](#load-pack-d) · [Step 9 · Turn requirements into a plan](#step-9) · [Step 10 · Look back: how sure are we?](#step-10) · [All packs](#all-packs) · [Background (optional reading)](#background) · [Words you'll hear](#words)
+**Contents**
+
+- [Start here](#start-here)
+- [Step 0 · Look at three broker apps](#step-0)
+- [Step 1 · First conversation with DT Coach](#step-1)
+- [Load Pack A](#load-pack-a)
+- [Step 4 · Brainstorm](#step-4)
+- [Step 6 · Test a prototype by hand](#step-6)
+- [Load Pack D and guided read](#load-pack-d)
+- [Step 9 · Turn requirements into a plan](#step-9)
+- [Step 10 · Look back: how sure are we?](#step-10)
+- [Background (optional reading)](#background)
+- [Words you'll hear](#words)
 
 
 <a id="start-here"></a>
@@ -130,7 +142,7 @@ A **pack** is a set of ready-made files from the stages you skip. Loading it put
 
 ### Do this
 
-**Download:** https://github.com/costastselios/hve-core-workshop-reference/raw/main/Pack-A-after-Step-3.zip (also posted in the workshop Teams channel)
+**Download:** [Pack-A-after-Step-3.zip](https://github.com/costastselios/hve-core-workshop-reference/raw/main/Pack-A-after-Step-3.zip) (also posted in the workshop Teams channel)
 
 **Unzip it:**
 - **Mac:** double-click the zip.
@@ -326,7 +338,7 @@ It shows the same Global Equity ETF mismatch.
 
 ### Do this
 
-**Download:** https://github.com/costastselios/hve-core-workshop-reference/raw/main/Pack-D-after-Step-8.zip (also posted in the workshop Teams channel)
+**Download:** [Pack-D-after-Step-8.zip](https://github.com/costastselios/hve-core-workshop-reference/raw/main/Pack-D-after-Step-8.zip) (also posted in the workshop Teams channel)
 
 **Unzip it:**
 - **Mac:** double-click the zip.
@@ -453,23 +465,6 @@ Save the proposal as docs/project-planning/portfolio-tracker-epic-feature-propos
 > **Next week, ask of any requirement: is this evidence, or a decision?**
 
 *In the self-paced version of this workshop you'd write these four piles into a file. Today we do it aloud.*
-
-
-[↑ Back to top](#top)
-
-<a id="all-packs"></a>
-
-## All packs
-
-*Optional references. You only need Pack A and Pack D today.*
-
-| Pack | What it contains | Download |
-|---|---|---|
-| A | The saved Design Thinking state after research and synthesis. | [Pack-A-after-Step-3.zip](https://github.com/costastselios/hve-core-workshop-reference/raw/main/Pack-A-after-Step-3.zip) |
-| B | One example of the brainstorm, concept and prototype stages, with sample prototype notes. | [Pack-B-after-Step-6.zip](https://github.com/costastselios/hve-core-workshop-reference/raw/main/Pack-B-after-Step-6.zip) |
-| C | One example approved BRD. | [Pack-C-after-Step-7.zip](https://github.com/costastselios/hve-core-workshop-reference/raw/main/Pack-C-after-Step-7.zip) |
-| D | The approved BRD and PRD. | [Pack-D-after-Step-8.zip](https://github.com/costastselios/hve-core-workshop-reference/raw/main/Pack-D-after-Step-8.zip) |
-| E | One example Epic/Feature plan, to compare with yours after Step 9. | [Pack-E-after-Step-9.zip](https://github.com/costastselios/hve-core-workshop-reference/raw/main/Pack-E-after-Step-9.zip) |
 
 
 [↑ Back to top](#top)
