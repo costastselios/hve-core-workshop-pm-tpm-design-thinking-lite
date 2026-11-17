@@ -25,12 +25,29 @@ From a vague product idea to a planned backlog, with AI agents helping and you d
 
 ## Start here
 
+### First: get the workshop repository
+
+There are two GitHub repositories today:
+- **This page** has the instructions and the two packs. You don't clone it.
+- **The workshop repository** is the one you clone and open in VS Code. You work in it all day.
+
+1. Clone the workshop repository. In a terminal, run:
+   ```bash
+   git clone https://github.com/costastselios/hve-core-pm-tpm-design-thinking-workshop.git
+   ```
+   Or, in VS Code, open the Command Palette (**Ctrl+Shift+P**; **Cmd+Shift+P** on Mac), choose **Git: Clone** and paste `https://github.com/costastselios/hve-core-pm-tpm-design-thinking-workshop.git`.
+2. In VS Code, choose **File → Open Folder…** and open the cloned `hve-core-pm-tpm-design-thinking-workshop` folder itself, not a folder inside it.
+3. Check: the file panel on the left shows `docs`, `workshop` and `workshop-output`.
+
+Every file path in this guide, for example `workshop/00-start/problem-domain.md`, is inside that cloned folder. That's also where you drag the packs.
+
+### About today
+
 - **This guide is the only document you need.** The slide on the projector tells you which section you're on.
 - **You work in pairs.** The **driver** types and clicks; the **assistant** reads this guide aloud and checks each step. Swap at every break.
 - **What today is about:** a way of working. Understand the problem first, then explore ideas, test them, and only then write down what to build. AI assistants help at each stage; you make the decisions. Where a stage would take too long, everyone loads a ready-made **pack** of files to continue from.
 - **Your role:** the **Product Owner**, the person who decides what a product does, for whom and why. You speak for a made-up investor (see [Background](#background)).
 - **Questions to the room** ("Regroups") are answered aloud. Anything else you want to raise: note it and bring it to the 15:45 Q&A.
-- **Workshop files** are in the workshop repository: [costastselios/hve-core-pm-tpm-design-thinking-workshop](https://github.com/costastselios/hve-core-pm-tpm-design-thinking-workshop). Paths in this guide (like `workshop/00-start/problem-domain.md`) are relative to that repository, as you see it in VS Code.
 
 ### How to talk to an AI agent in VS Code
 
