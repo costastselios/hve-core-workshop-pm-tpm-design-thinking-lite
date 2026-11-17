@@ -178,11 +178,15 @@ A **pack** is a set of ready-made files from the stages you skip. Loading it put
 
    ![Drag the pack-a folder onto the empty space at the bottom of the VS Code file panel](pack-a-drag.png)
 
-2. **Check:** the VS Code file panel now shows a top-level folder **`pack-a`**. Open it to see `pack-a › dt › portfolio-tracker › coaching-state.md`. Your own Step 1 files in `.copilot-tracking` are untouched.
+2. VS Code asks what to do with the folder. Choose **Copy Folder**. Don't choose **Add Folder to Workspace**: that copies nothing, and the next steps won't find the files. (This is a different question from **"Replace?"**, which you always answer with **Cancel**.)
 
-3. Open a **new** Copilot Chat and pick **DT Coach**. Don't continue your Step 1 chat.
-4. Attach `pack-a/dt/portfolio-tracker/coaching-state.md` with **Add Context** or by dragging the file into the chat.
-5. Paste:
+   Picked the wrong one? Right-click the added folder in the file panel → **Remove Folder from Workspace**, then drag again.
+
+3. **Check:** the VS Code file panel now shows a top-level folder **`pack-a`**. Open it to see `pack-a › dt › portfolio-tracker › coaching-state.md`. Your own Step 1 files in `.copilot-tracking` are untouched.
+
+4. Open a **new** Copilot Chat and pick **DT Coach**. Don't continue your Step 1 chat.
+5. Attach `pack-a/dt/portfolio-tracker/coaching-state.md` with **Add Context** or by dragging the file into the chat.
+6. Paste:
 
 ```text
 Resume the Design Thinking project saved in pack-a/dt/portfolio-tracker/ and keep saving its files there. Read coaching-state.md and the Method 1–3 artifacts it lists. Summarize only the state you can access, in at most 8 short bullets: methods completed, the evidence and its confidence (P01 and P02 kept separate), the opportunity frame, my Product Owner decisions, and the open questions. Do not reconstruct missing evidence and make no prevalence claims. Then stop and wait: I will start Method 4 (Workshop Step 4 — Brainstorming) in my next message.
@@ -374,15 +378,19 @@ It shows the same Global Equity ETF mismatch.
 
    ![Drag the project-planning folder onto the docs folder](pack-d-drag.png)
 
-2. **Check:** the VS Code file panel now shows **`docs › project-planning`** with 4 files:
-- `portfolio-tracker-brd.md`: the approved BRD
-- `portfolio-tracker.md`: the approved PRD, the file for Step 9
-- `portfolio-tracker-brd-to-prd-handoff.md`
-- `portfolio-tracker-brd-v0.1.0.md`
+2. VS Code asks what to do with the folder. Choose **Copy Folder**. Don't choose **Add Folder to Workspace**: that copies nothing, and the next steps won't find the files. (This is a different question from **"Replace?"**, which you always answer with **Cancel**.)
+
+   Picked the wrong one? Right-click the added folder in the file panel → **Remove Folder from Workspace**, then drag again.
+
+3. **Check:** the VS Code file panel now shows **`docs › project-planning`** with 4 files:
+   - `portfolio-tracker-brd.md`: the approved BRD
+   - `portfolio-tracker.md`: the approved PRD, the file for Step 9
+   - `portfolio-tracker-brd-to-prd-handoff.md`
+   - `portfolio-tracker-brd-v0.1.0.md`
 
    If `project-planning` appears at the top level instead of inside `docs`, drag it onto `docs`.
 
-3. Open `docs/project-planning/portfolio-tracker-brd.md` (the BRD) and `docs/project-planning/portfolio-tracker.md` (the PRD). Right-click › **Open Preview**. Use **Ctrl+F** (**Cmd+F** on Mac) to find the items in the table below, in order.
+4. Open `docs/project-planning/portfolio-tracker-brd.md` (the BRD) and `docs/project-planning/portfolio-tracker.md` (the PRD). Right-click › **Open Preview**. Use **Ctrl+F** (**Cmd+F** on Mac) to find the items in the table below, in order.
 
 ✅ **You're done when** you can trace one requirement from business need to product requirement, and name one open question that still has to be settled.
 
