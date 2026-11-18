@@ -10,6 +10,7 @@ From a vague product idea to a planned backlog, with AI agents helping and you d
 
 - [Start here](#start-here)
 - [Step 0 · Look at three broker apps](#step-0)
+- [The investor (your persona)](#investor)
 - [Step 1 · First conversation with DT Coach](#step-1)
 - [Load Pack A](#load-pack-a)
 - [Step 4 · Brainstorm](#step-4)
@@ -53,7 +54,7 @@ Every file path in this guide, for example `workshop/00-start/problem-domain.md`
 - **This guide is the only document you need.** The slide on the projector tells you which section you're on.
 - **You work in pairs.** The **driver** types and clicks; the **assistant** reads this guide aloud and checks each step. Swap at every break.
 - **What today is about:** a way of working. Understand the problem first, then explore ideas, test them, and only then write down what to build. AI assistants help at each stage; you make the decisions. Where a stage would take too long, everyone loads a ready-made **pack** of files to continue from.
-- **Your role:** the **Product Owner**, the person who decides what a product does, for whom and why. You speak for a made-up investor (see [Background](#background)).
+- **Your role:** the **Product Owner**, the person who decides what a product does, for whom and why. You speak for a made-up investor (see [The investor](#investor)).
 - **Questions to the room** ("Regroups") are answered aloud. Anything else you want to raise: note it and bring it to the 15:45 Q&A.
 
 ### How to talk to an AI agent in VS Code
@@ -105,6 +106,55 @@ Every file path in this guide, for example `workshop/00-start/problem-domain.md`
 
 [↑ Back to top](#top)
 
+<a id="investor"></a>
+
+## The investor (your persona)
+
+*Read this before Step 1. When DT Coach asks about "the investor", answer using this section.*
+
+Everyone uses the same made-up investor, so all pairs answer alike. This persona is a working baseline, **not research**. Anything you take from it is a **Decision** or an **Assumption**. Real evidence (two investors' notes) arrives at 11:50.
+
+| | |
+|---|---|
+| **Who** | A self-directed investor: makes their own investment choices, with no financial adviser. Made up. |
+| **Where** | Owns investments through three apps from three different brokers: the Broker 1, 2 and 3 apps from Step 0. |
+| **What** | Company shares, funds (ETFs) and a little crypto, priced in US dollars (USD), euros (EUR) and UAE dirhams (AED). Wants **one total in AED**. |
+| **Wants** | A factual, trustworthy record: what they own, where, what it's worth, how that value was worked out, and as of when. |
+| **Doesn't want** | Trading, investment advice, forecasts or tax reports. And never real personal financial data. |
+
+### A typical month-end today (our guess)
+
+| # | What the investor does | Where it hurts |
+|---|---|---|
+| 1 | Opens the Broker 1 app (all in USD): a cash fund and some company shares. | Shows only this app's investments. |
+| 2 | Opens the Broker 2 app (USD): one company's shares. Prices are 15 minutes old. | Different layout. Different timing. |
+| 3 | Opens the Broker 3 app: shares, a fund and crypto. Some values in AED, some in USD, in the same list. | Best app, but still only its own investments. Mixed currencies. |
+| 4 | Copies how much they own of each investment into a spreadsheet. | Typing mistakes. Things get missed. |
+| 5 | Types in prices and exchange rates by hand, then converts everything to AED. | Which rate? From when? Goes out of date fast. |
+| 6 | Adds it up to get one total. | No record of how the total was worked out. |
+| 7 | Bought something new? Types that purchase in too. | Tedious. Easy to skip, so the record gets gaps. |
+
+### What frustrates them (what we think, not fact)
+
+- **No single view** of everything.
+- **Hand-typed prices and exchange rates go out of date**, so they stop trusting the total.
+- **Re-entering every purchase is tedious**, and missed ones leave gaps.
+
+Tag these "Assumption" when you use them. Say "we think…", never "users want…".
+
+### Example answers for Step 1
+
+| DT Coach asks | Example answer | Tag |
+|---|---|---|
+| Who is the investor? Is it you? | No. A self-directed investor with investments at three brokers, in USD, EUR and AED, who wants one total in AED. | Decision |
+| Tell me about a real moment of pain. | At month-end they open three apps and update a spreadsheet by hand. A stale exchange rate once made the total wrong, and they stopped trusting it. | Assumption |
+| Why now? | We believe more people now invest across several apps. We haven't checked this. | Assumption |
+| Who else is affected? | The brokers (data sources) and price/exchange-rate data providers. Whether an accountant or partner matters is open. | Decision + Open question |
+| What's out of scope? | Trading, investment advice, forecasts and tax reports. | Decision |
+| You really need to talk to real investors. | Agreed. Research will be supplied later; plan for it and proceed. | — |
+
+[↑ Back to top](#top)
+
 <a id="step-1"></a>
 
 ## Step 1 · First conversation with DT Coach
@@ -121,7 +171,7 @@ Every file path in this guide, for example `workshop/00-start/problem-domain.md`
 Use HVE Core Design Thinking to develop this early idea. Treat it as hypotheses, not validated requirements. Start at the appropriate Design Thinking method. Do not jump to BRD, PRD, backlog or implementation.
 ```
 
-4. A long warning box appears first. That's normal. Then answer each question in **one or two sentences**, as the Product Owner, with a tag (see below).
+4. A long warning box appears first. That's normal. Then answer each question in **one or two sentences**, as the Product Owner, with a tag (see below). Answer using [The investor](#investor) section.
 5. **11:30:** paste:
 
 ```text
@@ -509,14 +559,7 @@ Save the proposal as docs/project-planning/portfolio-tracker-epic-feature-propos
 
 ### The investor (made up)
 
-| | |
-|---|---|
-| **Who** | Makes their own investment choices, without a financial adviser. |
-| **Where** | Three broker apps: Broker 1, 2 and 3. |
-| **What** | Company shares, funds and a little crypto, priced in US dollars, euros and UAE dirhams (AED). Wants one total in AED. |
-| **Today, each month-end** | Logs into each app, copies what they own into a spreadsheet, types in prices and exchange rates by hand, converts to AED and adds it up. New purchases get typed in too. |
-| **Where it hurts** | No single view. Hand-typed numbers go out of date, so they stop trusting the total. Retyping is tedious, and missed purchases leave gaps. |
-| **Wants** | A factual, trustworthy record: what they own, where, what it's worth, how that was worked out, and as of when. |
+See [The investor (your persona)](#investor).
 
 ### Why "just add it up" is hard
 
