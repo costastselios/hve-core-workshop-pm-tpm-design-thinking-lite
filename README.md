@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-# Workshop guide (v6.3)
+# Workshop guide (v6.5)
 
 From a vague product idea to a planned backlog, with AI agents helping and you deciding.
 
@@ -55,7 +55,7 @@ Every file path in this guide, for example `workshop/00-start/problem-domain.md`
 - **You work in pairs.** The **driver** types and clicks; the **assistant** reads this guide aloud and checks each step. Swap at every break.
 - **What today is about:** a way of working. Understand the problem first, then explore ideas, test them, and only then write down what to build. AI assistants help at each stage; you make the decisions. Where a stage would take too long, everyone loads a ready-made **pack** of files to continue from.
 - **Your role:** the **Product Owner**, the person who decides what a product does, for whom and why. You speak for a made-up investor (see [The investor](#investor)).
-- **Questions to the room** ("Regroups") are answered aloud. Anything else you want to raise: note it and bring it to the 15:45 Q&A.
+- **Questions to the room** ("Regroups") are answered aloud. Anything else you want to raise: note it and bring it to the closing Q&A.
 
 ### How to talk to an AI agent in VS Code
 
@@ -68,20 +68,28 @@ Every file path in this guide, for example `workshop/00-start/problem-domain.md`
 
 ### The day
 
-| Time | Section | Who |
-|---|---|---|
-| 10:00 | Introduction to the workshop and problem domain | Facilitator |
-| 10:40 | [Step 0 · Look at three broker apps](#step-0) | Pairs |
-| 11:10 | [Step 1 · First conversation with DT Coach](#step-1) | Pairs |
-| 11:50 | What two investors told us | Facilitator |
-| 12:00 | [Load Pack A](#load-pack-a) | Pairs |
-| 12:10 | [Step 4 · Brainstorm](#step-4) | Pairs |
-| 13:30 | The shared product idea | Facilitator |
-| 13:40 | [Step 6 · Test a prototype by hand](#step-6) | Pairs |
-| 14:40 | [Load Pack D and guided read](#load-pack-d) | Pairs + facilitator |
-| 15:05 | [Step 9 · Turn requirements into a plan](#step-9) | Pairs |
-| 15:25 | [Step 10 · Look back](#step-10) | Everyone |
-| 15:45–16:00 | Close and Q&A | Everyone |
+The day takes 6 hours. **Start** is the time from the beginning of the workshop.
+
+| Start | Section | Who | Length |
+|---|---|---|---|
+| 0:00 | Introduction to the workshop and problem domain | Facilitator | 40 min |
+| 0:40 | [Step 0 · Look at three broker apps](#step-0) | Pairs | 20 min |
+| 1:00 | Regroup 1 · questions to the room | Everyone | 10 min |
+| 1:10 | [Step 1 · First conversation with DT Coach](#step-1) | Pairs | 30 min |
+| 1:40 | Break (10 min) | | 10 min |
+| 1:50 | What two investors told us | Facilitator | 10 min |
+| 2:00 | [Load Pack A](#load-pack-a) | Pairs | 10 min |
+| 2:10 | [Step 4 · Brainstorm](#step-4) | Pairs | 25 min |
+| 2:35 | Regroup 2 · questions to the room | Everyone | 10 min |
+| 2:45 | Lunch (45 min) | | 45 min |
+| 3:30 | The shared product idea | Facilitator | 10 min |
+| 3:40 | [Step 6 · Test a prototype by hand](#step-6) | Pairs | 35 min |
+| 4:15 | Regroup 3 · questions to the room | Everyone | 15 min |
+| 4:30 | Break (10 min) | | 10 min |
+| 4:40 | [Load Pack D and guided read](#load-pack-d) | Pairs + facilitator | 25 min |
+| 5:05 | [Step 9 · Turn requirements into a plan](#step-9) | Pairs | 20 min |
+| 5:25 | [Step 10 · Look back](#step-10) | Everyone | 20 min |
+| 5:45 | Close and Q&A (ends at 6:00) | Everyone | 15 min |
 
 
 [↑ Back to top](#top)
@@ -90,7 +98,7 @@ Every file path in this guide, for example `workshop/00-start/problem-domain.md`
 
 ## Step 0 · Look at three broker apps
 
-*10:40 · 20 minutes · no AI*
+*20 minutes · no AI*
 
 ### Do this
 
@@ -98,7 +106,7 @@ Every file path in this guide, for example `workshop/00-start/problem-domain.md`
 2. Read the short primer, then look at **Broker 1**, **Broker 2** and **Broker 3** in that order.
 3. For each broker, talk with your partner: **what does this app know** about the investor's money, and **what can't it know**?
 
-✅ **You're done when** you can say in one sentence why none of the three apps answers "How do I keep track of everything I own in one place?" The facilitator will ask the room at 11:00.
+✅ **You're done when** you can say in one sentence why none of the three apps answers "How do I keep track of everything I own in one place?" The facilitator then asks the room.
 
 **What you're looking at:** a **broker** is a company (and app) you buy and hold investments through. The investor uses three of them. Each app is accurate about its own slice and blind to the other two.
 
@@ -113,7 +121,7 @@ Every file path in this guide, for example `workshop/00-start/problem-domain.md`
 
 *Read this before Step 1. When DT Coach asks about "the investor", answer using this section.*
 
-Everyone uses the same made-up investor, so all pairs answer alike. This persona is a working baseline, **not research**. Anything you take from it is a **Decision** or an **Assumption**. Real evidence (two investors' notes) arrives at 11:50.
+Everyone uses the same made-up investor, so all pairs answer alike. This persona is a working baseline, **not research**. Anything you take from it is a **Decision** or an **Assumption**. Real evidence (two investors' notes) arrives later, in the facilitator's talk before Pack A.
 
 | | |
 |---|---|
@@ -160,30 +168,30 @@ Tag these "Assumption" when you use them. Say "we think…", never "users want�
 
 ## Step 1 · First conversation with DT Coach
 
-*11:10–11:40 · 30 minutes*
+*30 minutes*
 
 ### Do this
 
 1. Open a **new chat** and pick **DT Coach**.
 2. Drag `workshop/00-start/ambiguous-product-idea.md` ([`workshop/00-start/ambiguous-product-idea.md`](https://github.com/costastselios/hve-core-pm-tpm-design-thinking-workshop/blob/main/workshop/00-start/ambiguous-product-idea.md)) from the file panel into the chat box.
-3. **11:10:** paste:
+3. **At the start:** paste:
 
 ```text
 Use HVE Core Design Thinking to develop this early idea. Treat it as hypotheses, not validated requirements. Start at the appropriate Design Thinking method. Do not jump to BRD, PRD, backlog or implementation.
 ```
 
 4. A long warning box appears first. That's normal. Then answer each question in **one or two sentences**, as the Product Owner, with a tag (see below). Answer using [The investor](#investor) section.
-5. **11:30:** paste:
+5. **After about 20 minutes:** paste:
 
 ```text
 We have 10 minutes left. Summarise what we've established so far, list what's still open as open questions, and stop here. Do not start the next method.
 ```
 
-6. **11:40: stop**, even if the coach wants more.
+6. **At the end of the step: stop**, even if the coach wants more.
 
-✅ **You'll see:** the first reply takes about 2 minutes; then one question at a time. After the 11:30 prompt, a short summary of what's established and what's still open, and the coach stops. Nothing needs saving or handing in.
+✅ **You'll see:** the first reply takes about 2 minutes; then one question at a time. After the closing prompt, a short summary of what's established and what's still open, and the coach stops. Nothing needs saving or handing in.
 
-> **Why this step, if nothing is kept?** Your Step 1 answers are **not carried forward**. At 12:00 everyone continues from the same saved run (Pack A), so all pairs work from the same starting point. The point of Step 1 is to see **how the coach questions a vague idea** before anyone designs anything.
+> **Why this step, if nothing is kept?** Your Step 1 answers are **not carried forward**. After the break everyone continues from the same saved run (Pack A), so all pairs work from the same starting point. The point of Step 1 is to see **how the coach questions a vague idea** before anyone designs anything.
 
 **Tag every answer**
 
@@ -211,7 +219,7 @@ We have 10 minutes left. Summarise what we've established so far, list what's st
 
 ## Load Pack A
 
-*12:00 · about 10 minutes · after the facilitator's 11:50 talk*
+*about 10 minutes · after the facilitator's talk on what two investors told us*
 
 A **pack** is a set of ready-made files from the stages you skip. Loading it puts everyone at the same starting point.
 
@@ -262,7 +270,7 @@ If you see a **STOP** message or anything unexpected, raise your hand.
 
 </details>
 
-**What the facilitator told you at 11:50, in short:** **both** investors use several brokers, combine the numbers by hand, want a factual history and prefer facts to forecasts. **Investor 1 (P01)** trusts the total less when typing prices and rates by hand, but doesn't mind occasional typing. **Investor 2 (P02)** buys small amounts often, finds retyping every purchase unacceptable, would upload a file, and wants to review changes before they're saved. Two people are a hint, not proof: say "investor 2 told us…", never "users want…".
+**What the facilitator told you, in short:** **both** investors use several brokers, combine the numbers by hand, want a factual history and prefer facts to forecasts. **Investor 1 (P01)** trusts the total less when typing prices and rates by hand, but doesn't mind occasional typing. **Investor 2 (P02)** buys small amounts often, finds retyping every purchase unacceptable, would upload a file, and wants to review changes before they're saved. Two people are a hint, not proof: say "investor 2 told us…", never "users want…".
 
 
 [↑ Back to top](#top)
@@ -271,7 +279,7 @@ If you see a **STOP** message or anything unexpected, raise your hand.
 
 ## Step 4 · Brainstorm
 
-*12:10 · 25 minutes · in the same DT Coach chat*
+*25 minutes · in the same DT Coach chat*
 
 **Today's question: How might we keep the portfolio record up to date without re-typing everything?** One round only: lots of different ideas, grouped into themes. Don't pick a winner.
 
@@ -289,7 +297,7 @@ If you see a **STOP** message or anything unexpected, raise your hand.
 Brainstorm question: "How might we keep an investor's portfolio record (holdings across three broker apps) up to date without re-typing everything?" Give 6 more ideas that are different from these: import the broker's export file and review it before saving; photograph the broker screen; only ask me to update when something differs from the broker; fix one holding without redoing the whole history. One short line per idea, no explanations, no code, don't read or change any files.
 ```
 
-2. In the **same DT Coach chat** from 12:00, paste the prompt below. Replace the `<idea …>` lines with the 4 example ideas plus your own (one per line).
+2. In the **same DT Coach chat** where you loaded Pack A, paste the prompt below. Replace the `<idea …>` lines with the 4 example ideas plus your own (one per line).
 
 ```text
 Start Method 4 (Brainstorming) now. I authorise moving into the Solution Space for this workshop.
@@ -321,7 +329,7 @@ Then stop. Do not pick a winner, develop a concept, write requirements, or offer
 Skip the second round. Today we brainstorm only this one question. Group all the ideas so far into 3–5 themes, link each theme to what the two investors said, give one discussion question, and stop. Do not start convergence or the next method.
 ```
 
-✅ **You'll see:** in about 1–2 minutes, one table of 3–5 themes mixing your ideas (marked "(pair)") with 6 new ones from the coach, each linked to Participant 01 or 02 (investor 1 or 2) or "no evidence yet", and one question for you. Talk it through; at 12:35 the facilitator asks the room which themes you got.
+✅ **You'll see:** in about 1–2 minutes, one table of 3–5 themes mixing your ideas (marked "(pair)") with 6 new ones from the coach, each linked to Participant 01 or 02 (investor 1 or 2) or "no evidence yet", and one question for you. Talk it through; at the end of the step the facilitator asks the room which themes you got.
 
 
 [↑ Back to top](#top)
@@ -330,7 +338,7 @@ Skip the second round. Today we brainstorm only this one question. Group all the
 
 ## Step 6 · Test a prototype by hand
 
-*13:40 · 35 minutes · no AI needed*
+*35 minutes · no AI needed*
 
 ### Do this
 
@@ -339,7 +347,7 @@ Skip the second round. Today we brainstorm only this one question. Group all the
 3. Follow **Version 1** steps 1–8. At step 8 (**Resolve mismatch**), **stop and each say your prediction aloud** before clicking.
 4. Open `workshop/04-prototype/iteration-02/index.html` the same way and follow **Version 2**: both paths.
 
-✅ **You're done when** you've walked both versions as the investor and can answer the three questions at the end aloud at 14:15.
+✅ **You're done when** you've walked both versions as the investor and can answer the three questions at the end aloud at the regroup after this step.
 
 ### The story
 
@@ -398,7 +406,7 @@ It shows the same Global Equity ETF mismatch.
 | 4 | Path B: you only know today's correct number, not why it's different. | **Try other branch**, then **I only know today's correct holding** | Preview: **Will change:** today's verified holding. **Will not change:** past transactions (the history is not rewritten). **Still uncertain:** why it happened, and whether the history is complete. |
 | 5 | Accept it. | **Confirm recovery** | "Today's holding verified without rewriting historical transactions." The app is honest that the cause is still unknown. |
 
-### Three questions for 14:15
+### Three questions for the regroup
 
 1. What exactly went wrong in version 1?
 2. Why is version 2 easier to trust, even though some things stay uncertain?
@@ -413,7 +421,7 @@ It shows the same Global Equity ETF mismatch.
 
 ## Load Pack D and guided read
 
-*14:40 · 25 minutes · facilitator reads along*
+*25 minutes · facilitator reads along*
 
 ### Do this
 
@@ -481,7 +489,7 @@ If you see a **STOP** message or anything unexpected, raise your hand.
 
 ## Step 9 · Turn requirements into a plan
 
-*15:05 · 20 minutes*
+*20 minutes*
 
 ### Do this
 
@@ -520,7 +528,7 @@ Save the proposal as docs/project-planning/portfolio-tracker-epic-feature-propos
 
 ## Step 10 · Look back: how sure are we?
 
-*15:25–15:45 · no agent · whole room, answered aloud*
+*20 minutes · no agent · whole room, answered aloud*
 
 ### Do this
 
@@ -634,4 +642,6 @@ See [The investor (your persona)](#investor).
 [↑ Back to top](#top)
 
 
-*Workshop guide v6.3*
+*Workshop guide v6.5*
+
+Facilitating this workshop? See [FACILITATOR.md](FACILITATOR.md).
