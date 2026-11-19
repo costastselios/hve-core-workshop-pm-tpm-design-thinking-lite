@@ -70,6 +70,7 @@ Every file path in this guide, for example `workshop/00-start/problem-domain.md`
 
 | Time | Section | Who |
 |---|---|---|
+| 10:00 | Introduction to the workshop and problem domain | Facilitator |
 | 10:40 | [Step 0 · Look at three broker apps](#step-0) | Pairs |
 | 11:10 | [Step 1 · First conversation with DT Coach](#step-1) | Pairs |
 | 11:50 | What two investors told us | Facilitator |
@@ -216,7 +217,7 @@ A **pack** is a set of ready-made files from the stages you skip. Loading it put
 
 ### Do this
 
-**Download:** [Pack-A-after-Step-3.zip](https://github.com/costastselios/hve-core-workshop-lite/raw/main/Pack-A-after-Step-3.zip) (also posted in the workshop Teams channel)
+**Download:** [Pack-A-after-Step-3.zip](https://github.com/costastselios/lite-participant-guide/raw/main/Pack-A-after-Step-3.zip) (also posted in the workshop Teams channel)
 
 **Unzip it:**
 - **Mac:** double-click the zip.
@@ -416,7 +417,7 @@ It shows the same Global Equity ETF mismatch.
 
 ### Do this
 
-**Download:** [Pack-D-after-Step-8.zip](https://github.com/costastselios/hve-core-workshop-lite/raw/main/Pack-D-after-Step-8.zip) (also posted in the workshop Teams channel)
+**Download:** [Pack-D-after-Step-8.zip](https://github.com/costastselios/lite-participant-guide/raw/main/Pack-D-after-Step-8.zip) (also posted in the workshop Teams channel)
 
 **Unzip it:**
 - **Mac:** double-click the zip.
