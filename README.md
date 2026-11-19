@@ -2,6 +2,8 @@
 
 # Workshop guide (v6.5)
 
+> **Facilitating this workshop?** Go to [FACILITATOR.md](FACILITATOR.md).
+
 From a vague product idea to a planned backlog, with AI agents helping and you deciding.
 
 > All data in this workshop is made up. Never type real financial data, yours or anyone's.
@@ -644,4 +646,3 @@ See [The investor (your persona)](#investor).
 
 *Workshop guide v6.5*
 
-Facilitating this workshop? See [FACILITATOR.md](FACILITATOR.md).
