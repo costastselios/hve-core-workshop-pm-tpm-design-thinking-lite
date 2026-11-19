@@ -49,32 +49,6 @@ Six hours. Times are elapsed from the start, so it works for any start time.
 - **Facilitator-led:** the introduction, what two investors told us, the shared product idea and the guided read. These stand in for the steps that today's format skips.
 - **◆ Regroups:** questions to the whole room, answered aloud. Start them on time.
 
-## Using the packs to shape your own version
-
-If you fork this workshop and want to skip some Design Thinking methods or steps, each pack is a saved, agent-generated state you can load to jump past them. Load the pack for the point you want to start from, and the agents carry on from there.
-
-| Pack | Saved state after | Lets you skip | Download |
-|---|---|---|---|
-| A | Step 3 | Steps 1–3 (DT Methods 1–3: scope, research, synthesis). DT Coach resumes at Method 4, the brainstorm. | [Pack-A-after-Step-3.zip](https://github.com/costastselios/hve-core-workshop-pm-tpm-design-thinking-lite/raw/main/Pack-A-after-Step-3.zip) |
-| B | Step 6 | The brainstorm, concept and prototype (Methods 4–6). Includes the DT→BRD handoff for BRD Builder (Step 7). | [Pack-B-after-Step-6.zip](https://github.com/costastselios/hve-core-workshop-pm-tpm-design-thinking-lite/raw/main/Pack-B-after-Step-6.zip) |
-| C | Step 7 | The BRD: an approved BRD, so you start at the PRD (Step 8) with PRD Builder. | [Pack-C-after-Step-7.zip](https://github.com/costastselios/hve-core-workshop-pm-tpm-design-thinking-lite/raw/main/Pack-C-after-Step-7.zip) |
-| D | Step 8 | The BRD and PRD: both approved, so you start at Step 9 (Epics and Features). | [Pack-D-after-Step-8.zip](https://github.com/costastselios/hve-core-workshop-pm-tpm-design-thinking-lite/raw/main/Pack-D-after-Step-8.zip) |
-| E | Step 9 | Everything up to the backlog: a finished Epic/Feature proposal, for comparison or to start straight at the Step 10 review. | [Pack-E-after-Step-9.zip](https://github.com/costastselios/hve-core-workshop-pm-tpm-design-thinking-lite/raw/main/Pack-E-after-Step-9.zip) |
-
-A and D load by drag and drop. B, C and E use the older layout with a hidden `.copilot-tracking` folder; see the README inside each zip.
-
-### Why this version uses only A and D
-
-- **One day, about six hours.** The full workshop takes a newcomer far longer: the dry run measured 5.5–8 hours hands-on, before any regroups.
-- **The moments with the biggest learning impact stay hands-on:**
-  - Step 1: questioning a vague idea with DT Coach.
-  - Step 4: brainstorming, seeing ideas grouped, then asking "did anyone actually ask for this?".
-  - Step 6: the prototype test, where people finish the task without understanding what it did.
-  - Step 9: turning requirements into Epics and Features with their open gates.
-- **The facilitator shows the rest** briefly from the saved run: research and synthesis, the shared concept, and the BRD and PRD. That keeps the "what we skipped, what the coach did, what came out" story without long agent conversations.
-- **Everyone loads the same pack at each jump,** so all pairs start each part from the same place, regroups compare like with like, and nobody needs catching up.
-- **Two jumps are the minimum** that keeps the day's flow from idea to backlog intact.
-
 ## Before the day
 
 - Send participants the guide link: [github.com/costastselios/hve-core-workshop-pm-tpm-design-thinking-lite](https://github.com/costastselios/hve-core-workshop-pm-tpm-design-thinking-lite).
@@ -101,3 +75,29 @@ A and D load by drag and drop. B, C and E use the older layout with a hidden `.c
 
 - Workshop repository: [costastselios/hve-core-pm-tpm-design-thinking-workshop](https://github.com/costastselios/hve-core-pm-tpm-design-thinking-workshop)
 - Prerequisites: [docs/PREREQUISITES.md](https://github.com/costastselios/hve-core-pm-tpm-design-thinking-workshop/blob/main/docs/PREREQUISITES.md)
+
+## Using the packs to shape your own version
+
+If you fork this workshop and want to skip some Design Thinking methods or steps, each pack is a saved, agent-generated state you can load to jump past them. Load the pack for the point you want to start from, and the agents carry on from there.
+
+| Pack | Saved state after | Lets you skip | Download |
+|---|---|---|---|
+| A | Step 3 | Steps 1–3 (DT Methods 1–3: scope, research, synthesis). DT Coach resumes at Method 4, the brainstorm. | [Pack-A-after-Step-3.zip](https://github.com/costastselios/hve-core-workshop-pm-tpm-design-thinking-lite/raw/main/Pack-A-after-Step-3.zip) |
+| B | Step 6 | The brainstorm, concept and prototype (Methods 4–6). Includes the DT→BRD handoff for BRD Builder (Step 7). | [Pack-B-after-Step-6.zip](https://github.com/costastselios/hve-core-workshop-pm-tpm-design-thinking-lite/raw/main/Pack-B-after-Step-6.zip) |
+| C | Step 7 | The BRD: an approved BRD, so you start at the PRD (Step 8) with PRD Builder. | [Pack-C-after-Step-7.zip](https://github.com/costastselios/hve-core-workshop-pm-tpm-design-thinking-lite/raw/main/Pack-C-after-Step-7.zip) |
+| D | Step 8 | The BRD and PRD: both approved, so you start at Step 9 (Epics and Features). | [Pack-D-after-Step-8.zip](https://github.com/costastselios/hve-core-workshop-pm-tpm-design-thinking-lite/raw/main/Pack-D-after-Step-8.zip) |
+| E | Step 9 | Everything up to the backlog: a finished Epic/Feature proposal, for comparison or to start straight at the Step 10 review. | [Pack-E-after-Step-9.zip](https://github.com/costastselios/hve-core-workshop-pm-tpm-design-thinking-lite/raw/main/Pack-E-after-Step-9.zip) |
+
+A and D load by drag and drop. B, C and E use the older layout with a hidden `.copilot-tracking` folder; see the README inside each zip.
+
+### Why this version uses only A and D
+
+- **One day, about six hours.** The full workshop takes a newcomer far longer: the dry run measured 5.5–8 hours hands-on, before any regroups.
+- **The moments with the biggest learning impact stay hands-on:**
+  - Step 1: questioning a vague idea with DT Coach.
+  - Step 4: brainstorming, seeing ideas grouped, then asking "did anyone actually ask for this?".
+  - Step 6: the prototype test, where people finish the task without understanding what it did.
+  - Step 9: turning requirements into Epics and Features with their open gates.
+- **The facilitator shows the rest** briefly from the saved run: research and synthesis, the shared concept, and the BRD and PRD. That keeps the "what we skipped, what the coach did, what came out" story without long agent conversations.
+- **Everyone loads the same pack at each jump,** so all pairs start each part from the same place, regroups compare like with like, and nobody needs catching up.
+- **Two jumps are the minimum** that keeps the day's flow from idea to backlog intact.
