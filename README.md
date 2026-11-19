@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-# Workshop guide (v6.5)
+# Workshop guide (v6.6)
 
 > **Facilitating this workshop?** Go to [FACILITATOR.md](FACILITATOR.md).
 
@@ -227,7 +227,7 @@ A **pack** is a set of ready-made files from the stages you skip. Loading it put
 
 ### Do this
 
-**Download:** [Pack-A-after-Step-3.zip](https://github.com/costastselios/hve-core-workshop-lite-participant-guide/raw/main/Pack-A-after-Step-3.zip) (also posted in the workshop Teams channel)
+**Download:** [Pack-A-after-Step-3.zip](https://github.com/costastselios/hve-core-workshop-pm-tpm-design-thinking-lite/raw/main/Pack-A-after-Step-3.zip) (also posted in the workshop Teams channel)
 
 **Unzip it:**
 - **Mac:** double-click the zip.
@@ -427,7 +427,7 @@ It shows the same Global Equity ETF mismatch.
 
 ### Do this
 
-**Download:** [Pack-D-after-Step-8.zip](https://github.com/costastselios/hve-core-workshop-lite-participant-guide/raw/main/Pack-D-after-Step-8.zip) (also posted in the workshop Teams channel)
+**Download:** [Pack-D-after-Step-8.zip](https://github.com/costastselios/hve-core-workshop-pm-tpm-design-thinking-lite/raw/main/Pack-D-after-Step-8.zip) (also posted in the workshop Teams channel)
 
 **Unzip it:**
 - **Mac:** double-click the zip.
@@ -644,5 +644,5 @@ See [The investor (your persona)](#investor).
 [↑ Back to top](#top)
 
 
-*Workshop guide v6.5*
+*Workshop guide v6.6*
 
